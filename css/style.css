@@ -1261,7 +1261,17 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
+@media (min-width: 768px) {
+  .header.masthead {
+    height: 100vh;
+}
+}
+
 @media (min-width: 992px) {
+  .header.masthead {
+    height: 100vh;
+}
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -1269,7 +1279,7 @@ pre code {
     max-width: 100%;
   }
 
-  .row-cols-lg-1 > * {
+    .row-cols-lg-1 > * {
     flex: 0 0 100%;
     max-width: 100%;
   }
