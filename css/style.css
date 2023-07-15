@@ -1262,6 +1262,7 @@ pre code {
   }
 }
 
+
 @media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
@@ -1353,7 +1354,7 @@ pre code {
 
   .col-lg-10 {
     flex: 0 0 83.3333333333%;
-    max-width: 83.3333333333%;
+    margin-top: 15%;
   }
 
   .col-lg-11 {
@@ -6434,6 +6435,13 @@ button.bg-dark:focus {
 
   .d-md-inline-flex {
     display: inline-flex !important;
+  }
+}
+
+@media (max-width: 768px){
+  .align-self-end {
+    align-self: flex-end !important;
+    margin-top: 45%;
   }
 }
 @media (min-width: 992px) {
