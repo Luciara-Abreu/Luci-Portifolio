@@ -6443,6 +6443,9 @@ button.bg-dark:focus {
     align-self: flex-end !important;
     margin-top: 45%;
   }
+  .text-white-profession{
+    font-size: 40px;
+  }
 }
 @media (min-width: 992px) {
   .d-lg-none {
