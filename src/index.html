@@ -61,7 +61,7 @@
         <div class="container h-100">
             <div class="rowInitial h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
-                    <img src="/assets/img/luciabreu.png" class="minha-foto" alt="Minha Imagem" />
+                    <img src="assets/img/luciabreu.png" class="minha-foto" alt="Minha Imagem" />
                     <h1 class="text-uppercaseName text-white font-weight-bold">Luci Abreu</h1>
 
                     <h2 class=" text-white font-weight-bold">Desenvolvedora</h2>
@@ -116,7 +116,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/Agenda-Aniversariantes.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/Agenda-Aniversariantes.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Construído com ..</div>
@@ -135,7 +135,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/portfolio-Luci.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-Luci.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Construído com...</div>
@@ -152,7 +152,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/jogo-da-porta-luci.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/jogo-da-porta-luci.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading"> Construído com...</div>
@@ -176,7 +176,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/Api-agenda-Aniversariante.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/Api-agenda-Aniversariante.png" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading"> API Aniversariantes - Construído com...</div>
@@ -202,33 +202,36 @@
                 </div>
             </div>
 
-
             <!-- Contact Form -->
-            <section data-aos="zoom-in-left">
+            <section data-aos="zoom-in-left" id="contactForm">
+                <form action="https://api.staticforms.xyz/submit" method="post">
 
-                <div class="form-floating mb-3">
-                    <label for="floatingInput">Nome </label>
-                    <input type="name" class="form-control" id="floatingInput" placeholder="nome sobrenome">
-                </div>
+                    <div class="form-floating mb-3">
+                        <label for="floatingInput">Nome</label>
+                        <input type="text" name="name" class="form-control" id="nameInput" placeholder="nome sobrenome"
+                            autocomplete="off" required>
+                    </div>
 
-                <div class="form-floating mb-3">
-                    <label for="floatingInput">Email </label>
-                    <input type="email" class="form-control" id="floatingInput" placeholder="nome@email.com">
-                </div>
+                    <div class="form-floating mb-3">
+                        <label for="floatingInput">Email</label>
+                        <input type="email" name="email" class="form-control" id="emailInput"
+                            placeholder="nome@email.com" autocomplete="off" required>
+                    </div>
 
-                <div class="form-floating">
-                    <label for="floatingTextarea2">Mensagem</label>
-                    <textarea class="form-control" placeholder="Digite aqui..." id="floatingTextarea2"
-                        style="height: 100px"></textarea>
-                </div>
+                    <div class="form-floating">
+                        <label for="floatingTextarea2">Mensagem</label>
+                        <textarea name="message" class="form-control" placeholder="Digite aqui..." id="messageInput"
+                            style="height: 100px"></textarea>
+                    </div>
+                    <div class="btn-form">
+                        <button class="btn btn-primary btn-xl" type="submit">Enviar</button>
+                    </div>
 
-                <div class="btn-form">
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#modalEnviar">Enviar</a>
-                </div>
+                    <input type="hidden" name="accessKey" value="2a8244f5-73da-4c49-8631-cc6bf3c184fa">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/obrigado.html">
 
+                </form>
             </section>
-
-
         </div>
     </section>
 
@@ -274,9 +277,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-    <!-- Contact form JS-->
+    <!-- Contact form JS
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
+    -->
+
 
     <!-- Data Aos Animate-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
