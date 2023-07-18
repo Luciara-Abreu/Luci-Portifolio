@@ -22,3 +22,7 @@
 <br>
 
 <img align="center" src="https://i.imgur.com/076Tm1Z.png"/>
+
+
+
+//para envio de e-mail do formulário sem back-end https://youtu.be/WZ0I8lbVJO0
