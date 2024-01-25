@@ -11156,6 +11156,12 @@ header.masthead h1 {
   margin-right: auto;
 }
 
+.portfolio-item img {
+  width: 100%;
+  height: 200px; /* Substitua 200px pela altura desejada */
+  object-fit: cover; /* Isso garante que a imagem cubra o contêiner mantendo a proporção */
+}
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
