@@ -10674,6 +10674,9 @@ button.bg-dark:focus {
   margin-top: 10%;
   text-align: center !important;
 }
+.text-center-foter {
+   text-align: center !important;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -11022,14 +11025,15 @@ hr.light {
 
 .page-section {
     height: 100vh;
-    /* padding: 5dvh 0; */
-    /*margin-bottom: 20%;*/
+ }
+.page-section-formulario {
+    height: 100vh;
+    margin-bottom: 3%;
 }
 
 .section-portfolios {
     background-color: #ebf3f7;  
     padding: 5dvh 0; 
-    margin-bottom: 20%;
 }
 
 
