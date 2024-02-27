@@ -653,7 +653,7 @@ pre code {
 .rowSobre {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10%;
+  /*margin-top: 10%;*/
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -661,9 +661,10 @@ pre code {
 .rowPortifolio {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2%;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-top: 2%; */
+  /* margin-right: -15px; */
+  /* margin-left: -15px; */
+  /* margin-bottom: 10%;*/
 }
 
 .rowForm {
@@ -7088,17 +7089,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important;
 }
 
-.bg-light {
-  background-color: #f8f9fa !important;
-  top: -50%;
-}
 
-a.bg-light:hover,
-a.bg-light:focus,
-button.bg-light:hover,
-button.bg-light:focus {
-  background-color: #dae0e5 !important;
-}
 
 .bg-dark {
   background-color: var(--gray-dark) !important;
@@ -8574,7 +8565,7 @@ button.bg-dark:focus {
 
 /*Luci*/
 .text2 {
-  padding-bottom: 25%;
+  padding-bottom: 15%;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -10680,6 +10671,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  margin-top: 10%;
   text-align: center !important;
 }
 
@@ -11029,8 +11021,17 @@ hr.light {
 }
 
 .page-section {
-  padding: 5dvh 0;
+    height: 100vh;
+    /* padding: 5dvh 0; */
+    /*margin-bottom: 20%;*/
 }
+
+.section-portfolios {
+    background-color: #ebf3f7;  
+    padding: 5dvh 0; 
+    margin-bottom: 20%;
+}
+
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -11317,5 +11318,9 @@ header.masthead h1 {
 
   .seta-dedo{
     background: #f5f5f5!important;
+  }
+
+  .contactForm{
+height: 100vh;
   }
 }
